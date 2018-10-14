@@ -1,0 +1,76 @@
+ <!DOCTYPE html>
+		<html>
+		<head>
+		  <title>Form</title>
+		  <meta - charset = "utf-8"> 
+		 </head>
+		  <body>
+		  	<h1>Form for employees CV </h1>
+		  	<p>go to <em><a href="#picture">picture</a> , <a href="#info">Personal info</a> , <a href="#contact">Contact</a> , <a href="#edu">Education</a></em></p>
+		  	<section class="picture">
+		  	<fieldset id="picture">
+		  		<legend>Upload your picture</legend>
+		  		select file: <input type="file" value="choose file">
+		  	</fieldset>
+		  	</section>
+		  	<section class="personal info">
+		  	<fieldset id="info">
+		  		 <legend>Personal information</legend>
+		  		   <label> Name : <input type="text" name="name" placeholder="Enter your name"></label>
+		  		 <br>
+		  		  <label>Family Name : <input type="text" name="fname" placeholder="Enter your family name"></label>
+		  		  <br>
+		  		  <label>Birth date : <input type="date"></label>
+		  		  <br>
+		  		  <label>Birth time : <input type="datetime"/></label>
+		  		  	<p>go to <em><a href="#picture">picture</a> , <a href="#info">Personal info</a> , <a href="#contact">Contact</a> , <a href="#edu">Education</a></em></p>
+		  	</fieldset>
+		  	</section>
+		  	<section class="contact">
+		  	<fieldset id="contact">
+		  		<legend>Conact</legend>
+		  		<label>Email :<input type="email" placeholder="anything@gmail.com" required></label>
+		  		<br>
+		  		<label> Phone :<input type="tel" placeholder="(ddd)-ddd-ddd" pattern="\(\d{3}\)+\d{3}-\d{4}" required ></label>
+		  		<br>
+		  		<label>  Personal page : <input type="url" placeholder="http://www.anything.com" ></label>
+		  			<p>go to <em><a href="#picture">picture</a> , <a href="#info">Personal info</a> , <a href="#contact">Contact</a> , <a href="#edu">Education</a></em></p>
+
+		  	</fieldset>
+		  	</section>
+		  	<section class="education">
+		  	<fieldset id="edu">
+		  		<legend> Education </legend>
+		  		<label>School name : <input type="text" name="school" placeholder="Enter your  school name"></label>
+		  		<br>
+		  		<label>Email :<input type="email" placeholder="anything@gmail.com" required></label>
+		  		<br>
+		  		<label> URL : <input type="url" placeholder="http://www.anything.com" ></label>
+		  		<br>
+		  		<label>Tel-no :<input type="tel" placeholder="(###)-###-##" pattern="\(\d{3}\)+\d{3}-\d{4}" required ></label>
+		  		<br>
+		  		<label>Avarage<input type="range"
+		  			 0 min="o"
+		  			max="100"
+		  			value="50" 100></label>
+		  			<hr>
+		  		<label>Univarsity name : <input type="text" name=" Univarsity" placeholder="Enter your Univarsity name"></label>
+		  		<br>
+		  		<label>Email :<input type="email" placeholder="anything@gmail.com" required></label>
+		  		<br>
+		  		<label> URL : <input type="url" placeholder="http://www.anything.com" ></label>
+		  		<br>
+		  		<label>Tel-no :<input type="tel" placeholder="(###)-###-##" pattern="\(\d{3}\)+\d{3}-\d{4}" required ></label>
+		  		<br>
+		  		<label>Avarage<input type="range"
+		  			 0 min="o"
+		  			max="100"
+		  			value="50" 100></label>
+		  				<p>go to <em><a href="#picture">picture</a> , <a href="#info">Personal info</a> , <a href="#contact">Contact</a> , <a href="#edu">Education</a></em></p>
+		  	</fieldset>
+		  	</section>
+		  	<br>
+
+		  	<input type="submit" name="submit" value="submit"> <input type="submit" name="cancel" value="cancel">
+		  </body>
+		  </html>
